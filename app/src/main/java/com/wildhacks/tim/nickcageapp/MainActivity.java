@@ -15,7 +15,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
     private ActionBar actionBar;
 
     //my tabs that will be viewed
-    private String[] tabs = {"MainFragment", "Video", "Audio", "About Me"};
+    private String[] tabs = {"Main", "Video", "Audio", "About Me"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState)

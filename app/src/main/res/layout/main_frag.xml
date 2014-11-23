@@ -4,11 +4,11 @@
     android:layout_height="match_parent"
     android:background="#fa6a6a" >
 
-    <TextView android:layout_width="fill_parent"
+    <ImageView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Main"
-        android:textSize="20dp"
-        android:layout_centerInParent="true"/>
+        android:id="@+id/nickImage"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
